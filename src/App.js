@@ -4,7 +4,7 @@ import './App.css';
 
 function App() {
   fetch('/db.json')
-    .then(r => s.json())
+    .then(r => r.json())
     .then(r => console.log(r))
     .catch(e => console.log(e))
   
