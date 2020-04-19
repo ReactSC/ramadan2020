@@ -926,8 +926,9 @@
       "sehar": "Sehar",
       "fajr": "Fajr",
       "iftar": "Iftar",
-      "selectCity": "Select Your City",
-      "selectLayout": "Change Layout"
+      "selectCity": "City ",
+      "selectLayout": "Layout ",
+      "selectLang": "Language"
     },
     "bn": {
       "title": "রমজানের সময়সুচী",
@@ -937,8 +938,9 @@
       "sehar": "সেহরী",
       "fajr": "ফজর",
       "iftar": "ইফতার",
-      "selectCity": "আপনার শহর পছন্দ করুন",
-      "selectLayout": "লে-আউট পরিবর্তন করুন"
+      "selectCity": "শহর ",
+      "selectLayout": "লে-আউট  ",
+      "selectLang": "ভাষা"
     }
   }
 }

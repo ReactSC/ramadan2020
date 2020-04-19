@@ -9,25 +9,18 @@ import { RamadanContext } from './store/context';
 const App = () => {
   const state = useContext(RamadanContext)
 
-  const settingsPopUp = () => {
+  const settingsPopUpHandler = () => {
     state.functions.settingsPopUp()
   }
 
   return (
     <div className="App">
-
       <div className="title" >
-        <h1 onClick={settingsPopUp}>{state.settings.t.title}</h1>
+        <h1 onClick={settingsPopUpHandler}>{state.settings.t.title}</h1>
         {state.others.settingsPopUp && <SettingsPopUp />}
       </div>
-
-      {
-        state.settings.layout === 'list' ?
-          <ListView /> :
-            state.settings.layout === 'gird' ?
-              <GirdView /> :
-                <ListView />
-      }
+      {state.settings.layout === 'gird' && <GirdView />}
+      {state.settings.layout === 'list' && <ListView />}
     </div>
   );
 }

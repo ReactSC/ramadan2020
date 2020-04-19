@@ -13,7 +13,6 @@ const RamadanProvider = props => {
     settings: {
       userDistrict: 'pabna',
       userLang: 'en',
-      theme: 'dark',
       layout: 'gird',
       t: db.translate.bn
     },
@@ -47,9 +46,10 @@ const RamadanProvider = props => {
       ...state,
       settings: {
         ...state.settings,
-        layout,
+        layout: layout,
       }
     })
+    console.log(layout)
   }
 
   const popUp = () => {
