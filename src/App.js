@@ -3,6 +3,11 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  fetch('/db.json')
+    .then(r => s.json())
+    .then(r => console.log(r))
+    .catch(e => console.log(e))
+  
   return (
     <div className="App">
       <header className="App-header">
