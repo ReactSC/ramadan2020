@@ -1,8 +1,12 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import { RamadanContext } from './store/context'
 import SingleLine from './SingleLine'
 
-const ListView = props => {
-  const { ramadan, date, sehar, fajr, iftar } = props.settings.t
+const ListView = () => {
+  const time = useContext(RamadanContext).data.dhaka
+  const settings = useContext(RamadanContext).settings
+  const { ramadan, date, sehar, fajr, iftar } = settings.t
+  
   return (
     <table>
       <thead>
@@ -26,7 +30,7 @@ const ListView = props => {
       </thead>
       <tbody>
         {
-          props.dhaka.map((time, index) => {
+          time.map((time, index) => {
             return (
               <SingleLine
                 key={index}

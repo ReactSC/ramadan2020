@@ -3,12 +3,16 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './components/App';
 import * as serviceWorker from './serviceWorker';
+import Provider from './components/store/context';
 
-ReactDOM.render(
+const app = (
   <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+    <Provider>
+      <App />
+    </Provider>
+  </React.StrictMode>
+)
+
+ReactDOM.render(app, document.getElementById('root'));
 
 serviceWorker.register();

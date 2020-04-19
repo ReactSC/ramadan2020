@@ -5,8 +5,19 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: url('https://i.ibb.co/9htpy7Y/bg.jpg');
+  z-index: -6;
+  position: relative;
 }
-
+body::after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background: #ffffffcc;
+  position: absolute;
+  z-index: -5;
+  top: 0;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

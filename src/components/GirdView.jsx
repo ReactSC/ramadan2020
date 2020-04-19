@@ -1,11 +1,16 @@
-import React from 'react'
+import React, {useContext} from 'react'
 import SingleBox from './SingleBox'
+import { RamadanContext } from './store/context'
 
-const GirdView = props => {
+
+
+const GirdView = () => {
+  const time = useContext(RamadanContext).data.dhaka
+  const settings = useContext(RamadanContext).settings
   return (
     <div className="box-wrap">
       {
-        props.dhaka.map((time, index) => {
+        time.map((time, index) => {
           return (
               <SingleBox
                 key={index}
@@ -13,7 +18,7 @@ const GirdView = props => {
                 date={time.date}
                 sehar={time.sehar}
                 iftar={time.iftar}
-                texts={props.settings.t}
+                texts={settings.t}
               />
           )
         })
