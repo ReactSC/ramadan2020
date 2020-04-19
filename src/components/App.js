@@ -35,7 +35,7 @@ const App = () => {
   state.settings.view = 'grid'
   return (
     <div className="App">
-      <h1>{state.settings.t.title}</h1>
+      <h1 className="title">{state.settings.t.title}</h1>
       {
         state.settings.view === 'list' ?
           <ListView {...state} /> :
