@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/ramadan2020/precache-manifest.1609f1ac440def9d1a88dead2d18c566.js"
+  "/ramadan2020/precache-manifest.1a3d004f4db53d1b5b9968975879f7dd.js"
 );
 
 self.addEventListener('message', (event) => {

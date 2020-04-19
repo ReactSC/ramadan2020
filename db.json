@@ -1,0 +1,918 @@
+{
+  "dhaka": [
+    {
+      "date": "April 25, 2000",
+      "sehar": "4:05",
+      "iftar": "6:28"
+    },
+    {
+      "date": "April 26, 2000",
+      "sehar": "4:04",
+      "iftar": "6:29"
+    },
+    {
+      "date": "April 27, 2000",
+      "sehar": "4:03",
+      "iftar": "6:29"
+    },
+    {
+      "date": "April 28, 2000",
+      "sehar": "4:02",
+      "iftar": "6:29"
+    },
+    {
+      "date": "April 29, 2000",
+      "sehar": "4:01",
+      "iftar": "6:30"
+    },
+    {
+      "date": "April 30, 2000",
+      "sehar": "4:00",
+      "iftar": "6:30"
+    },
+    {
+      "date": "May 01, 2000",
+      "sehar": "3:59",
+      "iftar": "6:31"
+    },
+    {
+      "date": "May 02, 2000",
+      "sehar": "3:58",
+      "iftar": "6:31"
+    },
+    {
+      "date": "May 03, 2000",
+      "sehar": "3:57",
+      "iftar": "6:32"
+    },
+    {
+      "date": "May 04, 2000",
+      "sehar": "3:55",
+      "iftar": "6:32"
+    },
+    {
+      "date": "May 05, 2000",
+      "sehar": "3:54",
+      "iftar": "6:33"
+    },
+    {
+      "date": "May 06, 2000",
+      "sehar": "3:53",
+      "iftar": "6:33"
+    },
+    {
+      "date": "May 07, 2000",
+      "sehar": "3:52",
+      "iftar": "6:34"
+    },
+    {
+      "date": "May 08, 2000",
+      "sehar": "3:51",
+      "iftar": "6:34"
+    },
+    {
+      "date": "May 09, 2000",
+      "sehar": "3:50",
+      "iftar": "6:35"
+    },
+    {
+      "date": "May 10, 2000",
+      "sehar": "3:50",
+      "iftar": "6:35"
+    },
+    {
+      "date": "May 11, 2000",
+      "sehar": "3:49",
+      "iftar": "6:36"
+    },
+    {
+      "date": "May 12, 2000",
+      "sehar": "3:49",
+      "iftar": "6:36"
+    },
+    {
+      "date": "May 13, 2000",
+      "sehar": "3:48",
+      "iftar": "6:36"
+    },
+    {
+      "date": "May 14, 2000",
+      "sehar": "3:48",
+      "iftar": "6:37"
+    },
+    {
+      "date": "May 15, 2000",
+      "sehar": "3:47",
+      "iftar": "6:37"
+    },
+    {
+      "date": "May 16, 2000",
+      "sehar": "3:47",
+      "iftar": "6:38"
+    },
+    {
+      "date": "May 17, 2000",
+      "sehar": "3:46",
+      "iftar": "6:38"
+    },
+    {
+      "date": "May 18, 2000",
+      "sehar": "3:46",
+      "iftar": "6:39"
+    },
+    {
+      "date": "May 19, 2000",
+      "sehar": "3:45",
+      "iftar": "6:39"
+    },
+    {
+      "date": "May 20, 2000",
+      "sehar": "3:44",
+      "iftar": "6:40"
+    },
+    {
+      "date": "May 21, 2000",
+      "sehar": "3:44",
+      "iftar": "6:40"
+    },
+    {
+      "date": "May 22, 2000",
+      "sehar": "3:43",
+      "iftar": "6:41"
+    },
+    {
+      "date": "May 23, 2000",
+      "sehar": "3:43",
+      "iftar": "6:42"
+    },
+    {
+      "date": "May 24, 2000",
+      "sehar": "3:42",
+      "iftar": "6:42"
+    }
+  ],
+  "districts": [
+    {
+      "name": {
+        "en": "Barguna",
+        "bn": "বরগুনা"
+      },
+      "division": 0,
+      "adjustTime": {
+        "sehar": "+5",
+        "iftar": "-2"
+      }
+    },
+    {
+      "name": {
+        "en": "Barishal",
+        "bn": "বরিশাল"
+      },
+      "division": 0,
+      "adjustTime": {
+        "sehar": "+2",
+        "iftar": "-2"
+      }
+    },
+    {
+      "name": {
+        "en": "Bhola",
+        "bn": "ভোলা"
+      },
+      "division": 0,
+      "adjustTime": {
+        "sehar": "+2",
+        "iftar": "-3"
+      }
+    },
+    {
+      "name": {
+        "en": "Jhalokati",
+        "bn": "ঝালকাঠি"
+      },
+      "division": 0,
+      "adjustTime": {
+        "sehar": "+3",
+        "iftar": "-1"
+      }
+    },
+    {
+      "name": {
+        "en": "Patuakhali",
+        "bn": "পটুয়াখালি"
+      },
+      "division": 0,
+      "adjustTime": {
+        "sehar": "+4",
+        "iftar": "-2"
+      }
+    },
+    {
+      "name": {
+        "en": "Pirojpur",
+        "bn": "পিরোজপুর"
+      },
+      "division": 0,
+      "adjustTime": {
+        "sehar": "+5",
+        "iftar": "0"
+      }
+    },
+    {
+      "name": {
+        "en": "Bandarban",
+        "bn": "বান্দরবন"
+      },
+      "division": 1,
+      "adjustTime": {
+        "sehar": "-4",
+        "iftar": "-10"
+      }
+    },
+    {
+      "name": {
+        "en": "Brahmanbaria",
+        "bn": "ব্রাহ্মণবাড়িয়া"
+      },
+      "division": 1,
+      "adjustTime": {
+        "sehar": "-4",
+        "iftar": "-3"
+      }
+    },
+    {
+      "name": {
+        "en": "Chandpur",
+        "bn": "চাঁদপুর"
+      },
+      "division": 1,
+      "adjustTime": {
+        "sehar": "0",
+        "iftar": "-2"
+      }
+    },
+    {
+      "name": {
+        "en": "Chittagong",
+        "bn": "চট্টগ্রাম"
+      },
+      "division": 1,
+      "adjustTime": {
+        "sehar": "-2",
+        "iftar": "-8"
+      }
+    },
+    {
+      "name": {
+        "en": "Comilla",
+        "bn": "কুমিল্লা"
+      },
+      "division": 1,
+      "adjustTime": {
+        "sehar": "+3",
+        "iftar": "-4"
+      }
+    },
+    {
+      "name": {
+        "en": "Cox's Bazar",
+        "bn": "কক্সবাজার"
+      },
+      "division": 1,
+      "adjustTime": {
+        "sehar": "-1",
+        "iftar": "-10"
+      }
+    },
+    {
+      "name": {
+        "en": "Feni",
+        "bn": "ফেনী"
+      },
+      "division": 1,
+      "adjustTime": {
+        "sehar": "-3",
+        "iftar": "-5"
+      }
+    },
+    {
+      "name": {
+        "en": "Khagrachari",
+        "bn": "খাগড়াছড়ি"
+      },
+      "division": 1,
+      "adjustTime": {
+        "sehar": "-5",
+        "iftar": "-8"
+      }
+    },
+    {
+      "name": {
+        "en": "Lakshmipur",
+        "bn": "লক্ষিপুর"
+      },
+      "division": 1,
+      "adjustTime": {
+        "sehar": "-1",
+        "iftar": "-3"
+      }
+    },
+    {
+      "name": {
+        "en": "Noakhali",
+        "bn": "নোয়াখালি"
+      },
+      "division": 1,
+      "adjustTime": {
+        "sehar": "-1",
+        "iftar": "-4"
+      }
+    },
+    {
+      "name": {
+        "en": "Rangamati",
+        "bn": "রাঙামাটি"
+      },
+      "division": 1,
+      "adjustTime": {
+        "sehar": "-4",
+        "iftar": "-9"
+      }
+    },
+    {
+      "name": {
+        "en": "Dhaka",
+        "bn": "ঢাকা"
+      },
+      "division": 2,
+      "adjustTime": {
+        "sehar": "0",
+        "iftar": "0"
+      }
+    },
+    {
+      "name": {
+        "en": "Faridpur",
+        "bn": "ফরিদপুর"
+      },
+      "division": 2,
+      "adjustTime": {
+        "sehar": "+2",
+        "iftar": "+2"
+      }
+    },
+    {
+      "name": {
+        "en": "Gazipur",
+        "bn": "গাজীপুর"
+      },
+      "division": 2,
+      "adjustTime": {
+        "sehar": "-1",
+        "iftar": "0"
+      }
+    },
+    {
+      "name": {
+        "en": "Gopalganj",
+        "bn": "গোপালগঞ্জ"
+      },
+      "division": 2,
+      "adjustTime": {
+        "sehar": "+4",
+        "iftar": "+1"
+      }
+    },
+    {
+      "name": {
+        "en": "Kishoreganj",
+        "bn": "কিশোরগঞ্জ"
+      },
+      "division": 2,
+      "adjustTime": {
+        "sehar": "-3",
+        "iftar": "-1"
+      }
+    },
+    {
+      "name": {
+        "en": "Madaripur",
+        "bn": "মাদারীপুর"
+      },
+      "division": 2,
+      "adjustTime": {
+        "sehar": "+2",
+        "iftar": "0"
+      }
+    },
+    {
+      "name": {
+        "en": "Manikganj",
+        "bn": "মানিকগঞ্জ"
+      },
+      "division": 2,
+      "adjustTime": {
+        "sehar": "+1",
+        "iftar": "+2"
+      }
+    },
+    {
+      "name": {
+        "en": "Munshiganj",
+        "bn": "মুন্সিগঞ্জ"
+      },
+      "division": 2,
+      "adjustTime": {
+        "sehar": "0",
+        "iftar": "-1"
+      }
+    },
+    {
+      "name": {
+        "en": "Narayanganj",
+        "bn": "নারায়ণগঞ্জ"
+      },
+      "division": 2,
+      "adjustTime": {
+        "sehar": "0",
+        "iftar": "-1"
+      }
+    },
+    {
+      "name": {
+        "en": "Narsingdi",
+        "bn": "নরসিংদী"
+      },
+      "division": 2,
+      "adjustTime": {
+        "sehar": "-2",
+        "iftar": "-1"
+      }
+    },
+    {
+      "name": {
+        "en": "Rajbari",
+        "bn": "রাজবাড়ী"
+      },
+      "division": 2,
+      "adjustTime": {
+        "sehar": "+4",
+        "iftar": "+4"
+      }
+    },
+    {
+      "name": {
+        "en": "Shariatpur",
+        "bn": "শরিয়তপুর"
+      },
+      "division": 2,
+      "adjustTime": {
+        "sehar": "+2",
+        "iftar": "-1"
+      }
+    },
+    {
+      "name": {
+        "en": "Tangail",
+        "bn": "টাঙ্গাইল"
+      },
+      "division": 2,
+      "adjustTime": {
+        "sehar": "0",
+        "iftar": "+2"
+      }
+    },
+    {
+      "name": {
+        "en": "Bagerhat",
+        "bn": "বাগেরহাট"
+      },
+      "division": 3,
+      "adjustTime": {
+        "sehar": "+5",
+        "iftar": "+1"
+      }
+    },
+    {
+      "name": {
+        "en": "Chuadanga",
+        "bn": "চুয়াডাঙ্গা"
+      },
+      "division": 3,
+      "adjustTime": {
+        "sehar": "+6",
+        "iftar": "+6"
+      }
+    },
+    {
+      "name": {
+        "en": "Jessore",
+        "bn": "যশোর"
+      },
+      "division": 3,
+      "adjustTime": {
+        "sehar": "+6",
+        "iftar": "+4"
+      }
+    },
+    {
+      "name": {
+        "en": "Jhenaidah",
+        "bn": "ঝিনাইদহ"
+      },
+      "division": 3,
+      "adjustTime": {
+        "sehar": "+5",
+        "iftar": "+5"
+      }
+    },
+    {
+      "name": {
+        "en": "Khulna",
+        "bn": "খুলনা"
+      },
+      "division": 3,
+      "adjustTime": {
+        "sehar": "+6",
+        "iftar": "+2"
+      }
+    },
+    {
+      "name": {
+        "en": "Kushtia",
+        "bn": "কুষ্টিয়া"
+      },
+      "division": 3,
+      "adjustTime": {
+        "sehar": "+5",
+        "iftar": "+5"
+      }
+    },
+    {
+      "name": {
+        "en": "Magura",
+        "bn": "মাগুরা"
+      },
+      "division": 3,
+      "adjustTime": {
+        "sehar": "+4",
+        "iftar": "+3"
+      }
+    },
+    {
+      "name": {
+        "en": "Meherpur",
+        "bn": "মেহেরপুর "
+      },
+      "division": 3,
+      "adjustTime": {
+        "sehar": "+7",
+        "iftar": "+7"
+      }
+    },
+    {
+      "name": {
+        "en": "Narail",
+        "bn": "নড়াইল"
+      },
+      "division": 3,
+      "adjustTime": {
+        "sehar": "+5",
+        "iftar": "+2"
+      }
+    },
+    {
+      "name": {
+        "en": "Satkhira",
+        "bn": "সাতক্ষীরা"
+      },
+      "division": 3,
+      "adjustTime": {
+        "sehar": "+8",
+        "iftar": "+4"
+      }
+    },
+    {
+      "name": {
+        "en": "Jamalpur",
+        "bn": "জামালপুর"
+      },
+      "division": 4,
+      "adjustTime": {
+        "sehar": "-2",
+        "iftar": "+4"
+      }
+    },
+    {
+      "name": {
+        "en": "Mymensingh",
+        "bn": "ময়মনসিংহ"
+      },
+      "division": 4,
+      "adjustTime": {
+        "sehar": "-3",
+        "iftar": "+1"
+      }
+    },
+    {
+      "name": {
+        "en": "Netrokona",
+        "bn": "নেত্রকোনা"
+      },
+      "division": 4,
+      "adjustTime": {
+        "sehar": "-5",
+        "iftar": "0"
+      }
+    },
+    {
+      "name": {
+        "en": "Sherpur",
+        "bn": "শেরপুর"
+      },
+      "division": 4,
+      "adjustTime": {
+        "sehar": "-2",
+        "iftar": "+3"
+      }
+    },
+    {
+      "name": {
+        "en": "Bogra",
+        "bn": "বগুড়া"
+      },
+      "division": 5,
+      "adjustTime": {
+        "sehar": "+1",
+        "iftar": "+6"
+      }
+    },
+    {
+      "name": {
+        "en": "Jaipurhat",
+        "bn": "জয়পুরহাট"
+      },
+      "division": 5,
+      "adjustTime": {
+        "sehar": "+2",
+        "iftar": "+8"
+      }
+    },
+    {
+      "name": {
+        "en": "Naogaon",
+        "bn": "নওগাঁ"
+      },
+      "division": 5,
+      "adjustTime": {
+        "sehar": "+3",
+        "iftar": "+8"
+      }
+    },
+    {
+      "name": {
+        "en": "Natore",
+        "bn": "নাটোর"
+      },
+      "division": 5,
+      "adjustTime": {
+        "sehar": "+4",
+        "iftar": "+7"
+      }
+    },
+    {
+      "name": {
+        "en": "Chapainawabganj",
+        "bn": "চাঁপাইনবাবগঞ্জ"
+      },
+      "division": 5,
+      "adjustTime": {
+        "sehar": "+6",
+        "iftar": "+10"
+      }
+    },
+    {
+      "name": {
+        "en": "Pabna",
+        "bn": "পাবনা"
+      },
+      "division": 5,
+      "adjustTime": {
+        "sehar": "+4",
+        "iftar": "+5"
+      }
+    },
+    {
+      "name": {
+        "en": "Rajshahi",
+        "bn": "রাজশাহী"
+      },
+      "division": 5,
+      "adjustTime": {
+        "sehar": "+5",
+        "iftar": "+8"
+      }
+    },
+    {
+      "name": {
+        "en": "Sirajganj",
+        "bn": "সিরাজগঞ্জ"
+      },
+      "division": 5,
+      "adjustTime": {
+        "sehar": "+1",
+        "iftar": "+4"
+      }
+    },
+    {
+      "name": {
+        "en": "Dinajpur",
+        "bn": "দিনাজপুর"
+      },
+      "division": 6,
+      "adjustTime": {
+        "sehar": "+2",
+        "iftar": "+10"
+      }
+    },
+    {
+      "name": {
+        "en": "Gaibandha",
+        "bn": "গাইবান্ধা"
+      },
+      "division": 6,
+      "adjustTime": {
+        "sehar": "-1",
+        "iftar": "+6"
+      }
+    },
+    {
+      "name": {
+        "en": "Kurigram",
+        "bn": "কুড়িগ্রাম"
+      },
+      "division": 6,
+      "adjustTime": {
+        "sehar": "-2",
+        "iftar": "+7"
+      }
+    },
+    {
+      "name": {
+        "en": "Lalmonirhat",
+        "bn": "লালমনিরহাট"
+      },
+      "division": 6,
+      "adjustTime": {
+        "sehar": "-2",
+        "iftar": "+7"
+      }
+    },
+    {
+      "name": {
+        "en": "Nilphamari",
+        "bn": "নীলফামারী"
+      },
+      "division": 6,
+      "adjustTime": {
+        "sehar": "+1",
+        "iftar": "+10"
+      }
+    },
+    {
+      "name": {
+        "en": "Panchagarh",
+        "bn": "পঞ্চগড়"
+      },
+      "division": 6,
+      "adjustTime": {
+        "sehar": "+1",
+        "iftar": "+12"
+      }
+    },
+    {
+      "name": {
+        "en": "Rangpur",
+        "bn": "রংপুর"
+      },
+      "division": 6,
+      "adjustTime": {
+        "sehar": "-1",
+        "iftar": "+8"
+      }
+    },
+    {
+      "name": {
+        "en": "Thakurgaon",
+        "bn": "ঠাকুরগাঁও"
+      },
+      "division": 6,
+      "adjustTime": {
+        "sehar": "+2",
+        "iftar": "+12"
+      }
+    },
+    {
+      "name": {
+        "en": "Hobiganj",
+        "bn": "হবিগঞ্জ"
+      },
+      "division": 7,
+      "adjustTime": {
+        "sehar": "-6",
+        "iftar": "-3"
+      }
+    },
+    {
+      "name": {
+        "en": "Moulvibazar",
+        "bn": "মৌলভীবাজার"
+      },
+      "division": 7,
+      "adjustTime": {
+        "sehar": "-8",
+        "iftar": "-4"
+      }
+    },
+    {
+      "name": {
+        "en": "Sunamganj",
+        "bn": "সুনামগঞ্জ"
+      },
+      "division": 7,
+      "adjustTime": {
+        "sehar": "-7",
+        "iftar": "-2"
+      }
+    },
+    {
+      "name": {
+        "en": "Sylhet",
+        "bn": "সিলেট"
+      },
+      "division": 7,
+      "adjustTime": {
+        "sehar": "-9",
+        "iftar": "-4"
+      }
+    }
+  ],
+  "divisions": [
+    {
+      "name": {
+        "en": "Barishal",
+        "bn": "বরিশাল"
+      },
+      "districts": 6
+    },
+    {
+      "name": {
+        "en": "Chittagong",
+        "bn": "চট্টগ্রাম"
+      },
+      "districts": 11
+    },
+    {
+      "name": {
+        "en": "Dhaka",
+        "bn": "ঢাকা"
+      },
+      "districts": 13
+    },
+    {
+      "name": {
+        "en": "Khulna",
+        "bn": "খুলনা"
+      },
+      "districts": 10
+    },
+    {
+      "name": {
+        "en": "Mymansingh",
+        "bn": "ময়মনশিংহ"
+      },
+      "districts": 4
+    },
+    {
+      "name": {
+        "en": "Rajshahi",
+        "bn": "রাজশাহী"
+      },
+      "districts": 8
+    },
+    {
+      "name": {
+        "en": "Rangpur",
+        "bn": "রংপুর"
+      },
+      "districts": 8
+    },
+    {
+      "name": {
+        "en": "Sylhet",
+        "bn": "সিলেট"
+      },
+      "districts": 4
+    }
+  ]
+}
