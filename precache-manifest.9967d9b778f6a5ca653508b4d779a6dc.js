@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d1e436c67a0580f8e76d7c85999301fc",
+    "revision": "90ba220a519f86a358449c6edfecedb1",
     "url": "/ramadan2020/index.html"
   },
   {
-    "revision": "bec1d13b441a6d5815cb",
-    "url": "/ramadan2020/static/css/main.fcc7e63e.chunk.css"
+    "revision": "38a31d7095f7f4e2629e",
+    "url": "/ramadan2020/static/css/main.1a28c08d.chunk.css"
   },
   {
     "revision": "83f7443a7ec12b4190d7",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ramadan2020/static/js/2.2e735f82.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "bec1d13b441a6d5815cb",
-    "url": "/ramadan2020/static/js/main.18ddd316.chunk.js"
+    "revision": "38a31d7095f7f4e2629e",
+    "url": "/ramadan2020/static/js/main.a7b1e063.chunk.js"
   },
   {
     "revision": "f146ce1a883b64e66206",

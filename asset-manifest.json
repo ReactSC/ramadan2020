@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/ramadan2020/static/css/main.fcc7e63e.chunk.css",
-    "main.js": "/ramadan2020/static/js/main.18ddd316.chunk.js",
-    "main.js.map": "/ramadan2020/static/js/main.18ddd316.chunk.js.map",
+    "main.css": "/ramadan2020/static/css/main.1a28c08d.chunk.css",
+    "main.js": "/ramadan2020/static/js/main.a7b1e063.chunk.js",
+    "main.js.map": "/ramadan2020/static/js/main.a7b1e063.chunk.js.map",
     "runtime-main.js": "/ramadan2020/static/js/runtime-main.f78b3bf8.js",
     "runtime-main.js.map": "/ramadan2020/static/js/runtime-main.f78b3bf8.js.map",
     "static/js/2.2e735f82.chunk.js": "/ramadan2020/static/js/2.2e735f82.chunk.js",
     "static/js/2.2e735f82.chunk.js.map": "/ramadan2020/static/js/2.2e735f82.chunk.js.map",
     "index.html": "/ramadan2020/index.html",
-    "precache-manifest.e9d63858a1d76f0729aeed9e4fb4f1ec.js": "/ramadan2020/precache-manifest.e9d63858a1d76f0729aeed9e4fb4f1ec.js",
+    "precache-manifest.9967d9b778f6a5ca653508b4d779a6dc.js": "/ramadan2020/precache-manifest.9967d9b778f6a5ca653508b4d779a6dc.js",
     "service-worker.js": "/ramadan2020/service-worker.js",
-    "static/css/main.fcc7e63e.chunk.css.map": "/ramadan2020/static/css/main.fcc7e63e.chunk.css.map",
+    "static/css/main.1a28c08d.chunk.css.map": "/ramadan2020/static/css/main.1a28c08d.chunk.css.map",
     "static/js/2.2e735f82.chunk.js.LICENSE.txt": "/ramadan2020/static/js/2.2e735f82.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.f78b3bf8.js",
     "static/js/2.2e735f82.chunk.js",
-    "static/css/main.fcc7e63e.chunk.css",
-    "static/js/main.18ddd316.chunk.js"
+    "static/css/main.1a28c08d.chunk.css",
+    "static/js/main.a7b1e063.chunk.js"
   ]
 }
