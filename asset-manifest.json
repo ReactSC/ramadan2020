@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ramadan2020/static/css/main.1a28c08d.chunk.css",
+    "main.css": "/ramadan2020/static/css/main.82dd66d4.chunk.css",
     "main.js": "/ramadan2020/static/js/main.a7b1e063.chunk.js",
     "main.js.map": "/ramadan2020/static/js/main.a7b1e063.chunk.js.map",
     "runtime-main.js": "/ramadan2020/static/js/runtime-main.f78b3bf8.js",
@@ -8,15 +8,15 @@
     "static/js/2.2e735f82.chunk.js": "/ramadan2020/static/js/2.2e735f82.chunk.js",
     "static/js/2.2e735f82.chunk.js.map": "/ramadan2020/static/js/2.2e735f82.chunk.js.map",
     "index.html": "/ramadan2020/index.html",
-    "precache-manifest.9967d9b778f6a5ca653508b4d779a6dc.js": "/ramadan2020/precache-manifest.9967d9b778f6a5ca653508b4d779a6dc.js",
+    "precache-manifest.d5805c72d259d2ae0131439c8e82050e.js": "/ramadan2020/precache-manifest.d5805c72d259d2ae0131439c8e82050e.js",
     "service-worker.js": "/ramadan2020/service-worker.js",
-    "static/css/main.1a28c08d.chunk.css.map": "/ramadan2020/static/css/main.1a28c08d.chunk.css.map",
+    "static/css/main.82dd66d4.chunk.css.map": "/ramadan2020/static/css/main.82dd66d4.chunk.css.map",
     "static/js/2.2e735f82.chunk.js.LICENSE.txt": "/ramadan2020/static/js/2.2e735f82.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.f78b3bf8.js",
     "static/js/2.2e735f82.chunk.js",
-    "static/css/main.1a28c08d.chunk.css",
+    "static/css/main.82dd66d4.chunk.css",
     "static/js/main.a7b1e063.chunk.js"
   ]
 }
