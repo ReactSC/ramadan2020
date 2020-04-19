@@ -1,7 +1,8 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './App.css';
 import * as db from './store/db.json'
-import SingleLine from './SingleLine'
+import ListView from './ListView'
+import GirdView from './GirdView'
 
 const App = () => {
   const [state, setState] = useState({
@@ -13,53 +14,35 @@ const App = () => {
     settings: {
       userDistrict: 'pabna',
       userLang: 'en',
-      theme: 'dark'
-    }
+      theme: 'dark',
+      view: 'list',
+      t: db.translate.en
+    },
+    popup: true
   })
-  
-  localStorage.setItem('ramadan2020', JSON.stringify(state))
 
+  useEffect(() => {
+    const tr = lang => {
+      lang === 'en' && setState({ ...state, settings: { ...state.settings, t: db.translate.en } })
+      lang === 'bn' && setState({ ...state, settings: { ...state.settings, t: db.translate.bn } })
+    }
+    tr(state.settings.userLang)
+
+  }, [])
+  
+
+  state.settings.userLang = 'en'
+  state.settings.view = 'grid'
   return (
     <div className="App">
-      <h1>RAMADAN TIME</h1>
-      <table>
-        <thead>
-          <tr>
-            <th>
-              Ramadan
-            </th>
-            <th>
-              Date
-            </th>
-            <th>
-              Sehar
-            </th>
-            <th>
-              Fajr
-            </th>
-            <th>
-              Iftar
-            </th>
-          </tr>
-        </thead>
-        <tbody>
-          {
-            state.dhaka.map((time, index) => {
-              return (
-                <SingleLine
-                  key={index}
-                  ramadan={index + 1}
-                  date={time.date}
-                  sehar={time.sehar}
-                  iftar={time.iftar}
-                />
-              )
-            })
-          }
-        </tbody>
-      </table>
-      
-      
+      <h1>{state.settings.t.title}</h1>
+      {
+        state.settings.view === 'list' ?
+          <ListView {...state} /> :
+            state.settings.view === 'grid' ?
+              <GirdView {...state} /> :
+                <ListView {...state} />
+      }
     </div>
   );
 }
