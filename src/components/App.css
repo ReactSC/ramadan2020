@@ -26,12 +26,14 @@ td{
   width: 100%;
   max-width: 300px;
   border-radius: 5px;
+  background: #ffe9f7;
   border: 1px solid #fd17a5 ;
   box-shadow: 0 0 5px #fd17a549;
   margin: 10px;
   padding: 10px;
   position: relative;
   overflow: hidden;
+  z-index: -2;
 }
 
 table.box-time {
@@ -48,7 +50,7 @@ table.box-time th, table.box-time td {
   content: '';
   width: 500px;
   height: 300px;
-  background: linear-gradient(0deg, #ff000021, #0000ff15);
+  background: linear-gradient(0deg, #ff7acc1e, #0000ff23);
   position: absolute;
   top: 0;
   left: 0;
