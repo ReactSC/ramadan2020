@@ -8,8 +8,6 @@ const RamadanProvider = props => {
     dhaka: db.dhaka,
     districts: db.districts,
     divisions: db.divisions,
-    h: db.h,
-    m: db.m,
     settings: {
       userDistrict: 'pabna',
       userLang: 'en',
@@ -75,8 +73,6 @@ const RamadanProvider = props => {
     },
     settings: state.settings,
     others: {
-      h: state.h,
-      m: state.m,
       popup: state.popup,
       settingsPopUp: state.settingsPopUp
     },
